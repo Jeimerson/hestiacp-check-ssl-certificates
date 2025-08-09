@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-	#use WebService::Linode;
 	use Data::Dumper;
 	use JSON;
 	use Term::ANSIColor;
@@ -13,11 +12,15 @@
 	my @error_domains;
 	my @warn_domains;
 
+	# CONFIG SETTINGS
 	my $subject = "SSL certificate status report";
 	my $to   = 'andy@ultranerds.co.uk';
 	my $warn_days = 14; # tweak as you like
 	my $sendmail_path = '/usr/sbin/sendmail';
 
+	#######################################
+ 	# You shouldn't need to edit anything after this :)
+	#######################################
 
 	foreach (split /\n/, $tmp) {
 		next if $_ eq '';
