@@ -23,11 +23,11 @@ my $to         = 'user@domain.com';
 my $warn_days  = 14; # tweak as you like
 
 # --- CONFIG SMTP ---
-my $smtp_server = "mail.domain.com"; # servidor SMTP
+my $smtp_server = "mail.domain.com"; # SMTP Server
 my $smtp_port   = 587;                   # 587 usa STARTTLS
-my $smtp_user   = 'user@domain.com'; # utilizador
-my $smtp_pass   = "STRONGPASS";           # senha
-my $from        = 'user@domain.com'; # remetente
+my $smtp_user   = 'user@domain.com'; # user
+my $smtp_pass   = "STRONGPASS";           # password
+my $from        = 'user@domain.com'; # sender
 
 #######################################
 # You shouldn't need to edit anything after this :)
