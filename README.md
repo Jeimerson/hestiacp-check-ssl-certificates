@@ -1,5 +1,6 @@
 # hestiacp-check-ssl-certificates
 A script to run on cron to check all the SSL certificates are valid and haven't expired / stalled
+Enable SMTP authentication via port 587
 
 Test it manually by just running it via SSH with:
 
